@@ -1,3 +1,6 @@
+body {
+  font-family: 'Roboto Slab', serif;
+}
 .nav li a {
   text-decoration: none;
   background-color: grey;
@@ -30,10 +33,16 @@
 
 h1 {
   font-size: 70px;
-  font-family: roboto;
-  font-style: bold;
+  letter-spacing: 13px;
+  word-spacing: 20px;
+  padding-left: 30px;
   text-align: center;
+  font-weight: 700;
 }
 #page_content {
-  text-align: center
+  text-align: center;
+}
+
+#contact_us {
+
 }
