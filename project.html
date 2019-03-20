@@ -1,8 +1,12 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Flat Cap Coffee</title>
+    <script
+    src="http://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
 
+    <title>Flat Cap Coffee</title>
     <link rel="stylesheet" href="Style/style.css">
     <style>
       ul.nav li{
@@ -18,16 +22,36 @@
 
     <h1>FLAT CAP COFFEE</h1>
 
-    <ul class='nav'>
-      <li><a href='#Our Story'>Our Story</a></li>
-      <li><a href='#Menu'>Menu</a></li>
-      <li><a href='#Contact Us'>Contact Us</a></li>
-      <li><a href="Reviews">Reviews</a></li>
+    <div id='nav'>
+    <ul id='navbar'>
+      <li><a href="#OurStory">Our Story</a></li>
+      <li><a href="#Menu">Menu</a></li>
+      <li><a href="#ContactUs">Contact Us</a></li>
+      <li><a href="#Reviews">Reviews</a></li>
     </ul>
+    <hr>
+    </div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("nav");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+
 
     <div id='page_content'>
 
-      <div id="Our Story">
+      <div id="OurStory">
         <p>This is our story - we make greate coffee</p>
       </div>
 
@@ -35,12 +59,10 @@
         <p>This is our menu </p>
       </div>
 
-      <div id="Contact Us">
-        <p>Flat Cap Coffee</p>
-        <p>9 Stoney Street</p>
-        <p>Borough Market</p>
-        <p>Flat Cap Coffee</p>
-        <p>40 Sutton ground</p>
+      <div id="ContactUs">
+      </div>
+
+      <div id="Reviews">
       </div>
 
     </div>

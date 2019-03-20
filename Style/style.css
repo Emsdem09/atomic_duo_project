@@ -1,24 +1,39 @@
-.nav li a {
+#nav {
+  background: #fff;
+}
+
+#navbar {
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+}
+
+#navbar li a {
   text-decoration: none;
-  background-color: #454545;
-  color: #afafaf;
+  background-color: none;
+  color: #454545;
   padding: 5px 10px;
   transition: 0.2s;
   font-size: 35px;
   font-family: roboto;
   border-radius: 4px;
 }
-.nav {
-  text-align: center;
-  display: flex;
-  justify-content: space-around;
+
+#navbar li a:hover {
+  background-color: #ffffff;
+  color: #afafaf
 }
 
-.nav li a:hover {
-  background-color: white;
-  color: #454545
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
 
+.sticky + .page_content {
+  padding-top: 60px;
+}
 .mybackground {
   width: 100%;
   height: 500px;
@@ -38,4 +53,11 @@ h1 {
 }
 #page_content {
   text-align: center
+}
+
+hr {
+  width: 95%;
+  height: 1px;
+  background-color: #000000;
+  opacity: 0.3;
 }
