@@ -1,12 +1,12 @@
 .nav li a {
   text-decoration: none;
-  background-color: grey;
-  color: lightgrey;
+  background-color: #454545;
+  color: #afafaf;
   padding: 5px 10px;
   transition: 0.2s;
   font-size: 35px;
   font-family: roboto;
-  
+  border-radius: 4px;
 }
 .nav {
   text-align: center;
@@ -16,6 +16,7 @@
 
 .nav li a:hover {
   background-color: white;
+  color: #454545
 }
 
 .mybackground {
@@ -33,4 +34,5 @@ h1 {
   font-family: roboto;
   font-style: bold;
   text-align: center;
+  color: #454545;
 }
