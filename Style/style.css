@@ -6,7 +6,7 @@
   transition: 0.2s;
   font-size: 35px;
   font-family: roboto;
-  
+
 }
 .nav {
   text-align: center;
@@ -33,4 +33,7 @@ h1 {
   font-family: roboto;
   font-style: bold;
   text-align: center;
+}
+#page_content {
+  text-align: center
 }
