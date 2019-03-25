@@ -121,12 +121,12 @@ hr {
   max-width: 800px;
 }
 
-.column {
+/* .column {
   float: left;
   width: 15%;
   margin-left: 125px;
   margin-top: 150px;
-}
+} */
 
 /* Clear floats after the columns */
 .ContactUs:after {
@@ -148,18 +148,24 @@ hr {
   color: #000000;
 }
 
-.carousel-caption h5 {
-  color: #6a6a6a;
-}
-
-.carousel-caption p {
-  color:#6a6a6a;
-}
 .menu2 {
   margin-top: 100px;
   margin-left: 50px;
 }
 
-.footer {
-  background-color: grey;
+footer {
+  display: flex;
+  background-color: pink;
+}
+
+#ContactUs {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 20px 0px 20px 0px;
+}
+
+.carousel-caption {
+  background: rgba(100, 100, 100, .6);
+  color: white;
 }
