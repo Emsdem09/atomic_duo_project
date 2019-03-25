@@ -128,3 +128,31 @@ hr {
   clear: both;
   background-color: #454545;
 }
+
+#button {
+  color: grey;
+  font-size: 50px;
+  padding-left: 150px;
+  padding-top:
+}
+
+#button: hover {
+  background-color: white;
+  color: grey;
+}
+
+.title {
+  padding-left: 590px;
+}
+
+.content {
+  padding-top: 100px;
+}
+
+/* Clear floats after the columns */
+.content:after {
+  content: "";
+  display: table;
+  clear: both;
+  background-color: #454545;
+}
