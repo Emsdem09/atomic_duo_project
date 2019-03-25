@@ -162,14 +162,14 @@ hr {
   color: #000000;
 }
 
-.menu2 {
-  width: 80%;
-}
-
 .carousel-caption h5 {
   color:
 }
 
 .carousel-caption p {
-  color: 
+  color:
+}
+.menu2 {
+  margin-top: 100px;
+  margin-left: 50px;
 }
