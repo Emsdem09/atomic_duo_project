@@ -148,14 +148,18 @@ hr {
   color: #000000;
 }
 
-.menu2 {
-  width: 80%;
-}
-
 .carousel-caption h5 {
   color: #6a6a6a;
 }
 
 .carousel-caption p {
-  color: #6a6a6a;
+  color:#6a6a6a;
+}
+.menu2 {
+  margin-top: 100px;
+  margin-left: 50px;
+}
+
+.footer {
+  background-color: grey;
 }
