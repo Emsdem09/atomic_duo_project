@@ -87,6 +87,13 @@ h1 {
   grid-template-columns: 1fr 1fr;
 }
 
+.page-content-menu {
+  max-width: 1200px;
+  text-align: left;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
 .page-content img {
   max-width: 600px;
   margin: 60px 0px;
@@ -94,6 +101,7 @@ h1 {
 
 .text {
   margin: 60px 14px 14px 14px;
+  text-align: center;
 }
 
 @media (max-width: 750px) {
@@ -142,17 +150,14 @@ hr {
 }
 
 .title {
-  padding-left: 590px;
+  text-align: center;
 }
 
-.content {
-  padding-top: 100px;
+#coffee {
+  text-align: center;
 }
 
-/* Clear floats after the columns */
-.content:after {
-  content: "";
-  display: table;
-  clear: both;
-  background-color: #454545;
+.d-block {
+  font-size: bold;
+  color: #000000;
 }
